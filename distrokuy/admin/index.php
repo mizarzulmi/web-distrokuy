@@ -42,6 +42,7 @@ if (!isset($_SESSION['admin']))
                 <li><a href="index.php?halaman=pembelian"><i class="fa fa-tags"></i> Pembelian</a></li>
                 <li><a href="index.php?halaman=laporanpembelian"><i class="fa fa-file"></i> Laporan</a></li>
                 <li><a href="index.php?halaman=pelanggan"><i class="fa fa-users"></i> Pelanggan</a></li>
+                <li><a href="chat/index.php"><i class="fa fa-comment"></i> Chat Room</a></li>
                 <li><a href="index.php?halaman=logout"><i class="fa fa-sign-out"></i> Keluar</a></li>
 </ul>
                
@@ -98,6 +99,7 @@ if (!isset($_SESSION['admin']))
                     {
                         include 'laporanpembelian.php';
                     }  
+            
                 }
                 else
                 {

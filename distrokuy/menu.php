@@ -117,9 +117,8 @@ $koneksi=new mysqli("localhost","root","","distrokuy");
 			}
 			else
 			{
-				echo "<script>location='riwayat.php';</script>";
+				echo "<script>location='index.php';</script>";
 			}
-			echo "<script>location='index.php';</script>";
 		}	
 		else
 		{
